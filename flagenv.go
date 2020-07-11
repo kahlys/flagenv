@@ -7,6 +7,16 @@ import (
 	"strconv"
 )
 
+// Parse parses the command-line/environment-variable flags.
+func Parse() {
+	flag.Parse()
+}
+
+// PrintDefaults prints a usage message showing the default settings of all defined command-line flags.
+func PrintDefaults() {
+	flag.PrintDefaults()
+}
+
 // String defines a string flag with specified name, env variable, default value, and usage string.
 // The return value is the address of a string variable that stores the value of the flag.
 func String(name string, env string, value string, usage string) *string {
