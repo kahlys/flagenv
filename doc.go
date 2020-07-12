@@ -10,6 +10,6 @@
 // 	var optFlag = flagenv.String("option", "OPTION", "value", "help message")
 //
 // After all flags are defined, call
-// 	flag.Parse()
+// 	flagenv.Parse()
 // to parse the command line into the defined flags.
 package flagenv
