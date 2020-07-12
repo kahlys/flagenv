@@ -1,5 +1,8 @@
 # flagenv
 
+[![godoc](https://godoc.org/github.com/kahlys/flagenv?status.svg)](https://godoc.org/github.com/kahlys/flagenv)
+[![go report](https://goreportcard.com/badge/github.com/kahlys/flagenv)](https://goreportcard.com/report/github.com/kahlys/flagenv)
+
 Flagenv is a golang command-line and/or or environment variable flags parser. It is an extension of the [flag package](https://golang.org/pkg/flag/), and both works fine together.
 
 ## Usage
