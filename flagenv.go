@@ -133,6 +133,6 @@ func flagEnvFloat64(key string, value float64) float64 {
 }
 
 func outputErr(err string) {
-	fmt.Fprintf(flag.CommandLine.Output(), fmt.Sprintf("%v\n", err))
+	fmt.Fprint(flag.CommandLine.Output(), err)
 	os.Exit(2)
 }
